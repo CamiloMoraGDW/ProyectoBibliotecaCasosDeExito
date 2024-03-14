@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -17,9 +17,10 @@
                 <img src="../img/LogoAzulSinFondo.png" alt="Logo Godoworks Azul">
                 <h1>Create Account</h1>
                 <span>or use your email for registeration</span>
-                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Nomre">
+                <input type="text" placeholder="Apellido">
                 <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Contraseña">
                 <button>Sign Up</button>
             </form>
         </div>
@@ -29,7 +30,7 @@
                 <h1>Iniciar Sesión</h1>
                 <span>Ingresa tus datos para entrar</span>
                 <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Contraseña">
                 <a href="#">¿Olvidaste tu contraseña?</a>
                 <button>Sign In</button>
             </form>
