@@ -15,13 +15,13 @@
         <div class="form-container sign-up">
             <form>
                 <img src="../img/LogoAzulSinFondo.png" alt="Logo Godoworks Azul">
-                <h1>Create Account</h1>
-                <span>or use your email for registeration</span>
+                <h1>Registrarse</h1>
+                <span>crea una cuenta para entrar en nuestro gestor</span>
                 <input type="text" placeholder="Nomre">
                 <input type="text" placeholder="Apellido">
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Contraseña">
-                <button>Sign Up</button>
+                <button>Registrarse</button>
             </form>
         </div>
         <div class="form-container sign-in">
@@ -32,20 +32,20 @@
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Contraseña">
                 <a href="#">¿Olvidaste tu contraseña?</a>
-                <button>Sign In</button>
+                <button>Ingresar</button>
             </form>
         </div>
         <div class="toggle-container">
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
-                    <h1>Welcome Back!</h1>
-                    <p>Enter your personal details to use all of site features</p>
-                    <button class="hidden" id="login">Sign In</button>
+                    <h1>¿Ya tienes una cuenta?</h1>
+                    <p>Utiliza tu mail para iniciar sesión.</p>
+                    <button class="hidden" id="login">Iniciar Sesión</button>
                 </div>
                 <div class="toggle-panel toggle-right">
-                    <h1>Hello, Friend!</h1>
-                    <p>Register with your personal details to use all of site features</p>
-                    <button class="hidden" id="register">Sign Up</button>
+                    <h1>¿No tienes una cuenta?</h1>
+                    <p>Usa tus datos personal y crea una cuenta.</p>
+                    <button class="hidden" id="register">Registrate</button>
                 </div>
             </div>
         </div>
