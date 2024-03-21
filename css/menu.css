@@ -87,3 +87,11 @@ html {
     text-decoration: none;
     color: rgb(181, 0, 0);
 }
+
+header .busqueda{
+    margin-right: 20px;
+}
+
+header .busqueda input {
+    font-size: 1.2rem;
+}
