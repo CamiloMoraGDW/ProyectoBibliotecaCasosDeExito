@@ -8,8 +8,7 @@
 }
 
 body {
-    background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    background-color: #e9ebf0;
     margin: 0;
 }
 
@@ -29,77 +28,41 @@ html {
     font-family: Arial, sans-serif;
 }
 
-.menu-btn {
+body nav {
+    background-color: #046da0;
     position: fixed;
-    top: 20px;
-    left: 20px;
-    cursor: pointer;
-    font-size: 24px;
-}
-
-.menu {
-    position: fixed;
-    top: 0;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    background: #046da0;
-    border: solid;
-    transition: left 0.5s ease;
-}
-
-.menu ul {
-    list-style: none;
-    padding: 0;
-}
-
-.menu ul li {
-    padding: 10px;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.menu-open {
-    left: 0;
-}
-
-.footer-menu {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    display: none;
-}
-
-.footer-menu ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-menu ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.footer-menu ul li a {
-    text-decoration: none;
-    color: rgb(181, 0, 0);
-}
-
-header .busqueda{
-    margin-right: 20px;
-}
-
-header .busqueda input {
     font-size: 1.2rem;
 }
 
-.tarjetas{
+body nav img {
+    max-width: 70px;
+    margin: 5px;
+}
+
+#cerrarSesion {
+    color: red;
+}
+
+.cartas-container1 {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 40%;
-    margin: 20px;
+    justify-content: space-around;
+    margin-top: 4%;
+    margin-bottom: 20PX;
+}
+
+.cartas-container2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.cartas-container1 a img,
+.cartas-container2 a img {
+    border-radius: 30px;
+}
+
+.cartas-container1 a img:hover,
+.cartas-container2 a img:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
 }
